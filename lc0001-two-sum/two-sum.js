@@ -4,9 +4,11 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-  for (let i = 0; i < nums.length-1; i++) {
-    if (nums[i] + nums[i+1] === target) {
-      return [i, i+1];
+  for (let i = 0; i < nums.length; i++) {
+    let exist = target - nums[i];
+    if(nums.includes(exist, i + 1)) {
+      const secondIndex = nums.indexOf(exist, i + 1);
+      return [i, secondIndex];
     }
   }
 };
