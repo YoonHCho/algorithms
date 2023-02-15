@@ -2,6 +2,6 @@
 
 Collection of Algorithm Problems from:
 
-- cs files from [CodeSignal](https://codesignal.com/)
-- lc files from [LeetCode](https://leetcode.com/)
-- hr files from [HackerRank](https://www.hackerrank.com/)
+- [CodeSignal](https://codesignal.com/)
+- [HackerRank](https://www.hackerrank.com/)
+- [LeetCode](https://leetcode.com/)
