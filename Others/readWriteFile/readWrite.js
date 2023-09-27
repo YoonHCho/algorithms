@@ -1,14 +1,6 @@
-const path = require("path");
 const fs = require("fs");
-// import fs from "fs";
-console.log(process.cwd());
 
 function readFile() {
-  const scriptDir = __dirname;
-  const filePath = path.join(scriptDir, "readWriteFile.txt");
-  // console.log(`Current script directory: ${scriptDir}`);
-  // console.log(`File path: ${filePath}`);
-
   fs.readFile("readWrite.txt", "utf8", (err, data) => {
     if (err) console.log("ERROR");
     console.log(data);
