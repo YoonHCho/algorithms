@@ -1,4 +1,4 @@
-// Link:
+// Link: https://www.hackerrank.com/challenges/day-of-the-programmer/problem
 
 function dayOfProgrammer(year) {
   let days = 256;
