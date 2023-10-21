@@ -1,15 +1,15 @@
 // Link: https://www.hackerrank.com/challenges/bon-appetit/problem
 
 function bonAppetit(bill, k, b) {
-  let billToCalclate = 0;
+  let billToCalculate = 0;
 
   for (let i = 0; i < bill.length; i++) {
     if (i !== k) {
-      billToCalclate += bill[i];
+      billToCalculate += bill[i];
     }
   }
 
-  const annaPortion = billToCalclate / 2;
+  const annaPortion = billToCalculate / 2;
 
   if (annaPortion === b) {
     return console.log("Bon Appetit");
