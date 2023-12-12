@@ -31,7 +31,3 @@ function appendAndDelete(s, t, k) {
 console.log(appendAndDelete("hackerhappy", "hackerrank", 9)); // Yes
 console.log(appendAndDelete("aba", "aba", 7)); // Yes
 console.log(appendAndDelete("ashley", "ash", 2)); // No
-console.log(appendAndDelete("ash", "ashley", 2)); // No
-console.log(appendAndDelete("ash", "ashley", 3)); // Yes
-console.log(appendAndDelete("ash", "ashley", 4)); // Yes
-console.log(appendAndDelete("ash", "ashley", 6)); // Yes
